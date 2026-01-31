@@ -39,6 +39,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/lineicons.css" />
+    <!-- Fallback CDN for LineIcons in case local font files/CSS fail -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lineicons@2.0.1/dist/LineIcons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
   <body>
@@ -192,7 +194,11 @@
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
               <div class="ud-feature-icon">
-                <i class="lni lni-shield"></i>
+                <!-- Shield SVG (Non-Invasive Design) -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M12 2L3 6v5c0 5.25 3.75 9.75 9 11 5.25-1.25 9-5.75 9-11V6l-9-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Non-Invasive Design</h3>
@@ -205,7 +211,11 @@
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
               <div class="ud-feature-icon">
-                <i class="lni lni-pulse"></i>
+                <!-- Pulse/ECG SVG (Targeted Stimulation) -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M22 12h-4l-1.6 4L12 7l-2 6H2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 20v2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Targeted Stimulation</h3>
@@ -218,7 +228,12 @@
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".2s">
               <div class="ud-feature-icon">
-                <i class="lni lni-hand-open"></i>
+                <!-- Hand SVG (Comfort-Focused) -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M2 14c0-3 3-5 6-5h1v7H8a2 2 0 01-2-2v0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9 9V5a2 2 0 114 0v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M17 12v4a3 3 0 01-3 3H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Comfort-Focused</h3>
@@ -231,7 +246,11 @@
           <div class="col-xl-3 col-lg-3 col-sm-6">
             <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
               <div class="ud-feature-icon">
-                <i class="lni lni-rocket"></i>
+                <!-- Rocket SVG (Future Expandable) -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path d="M14 3s-1 2-4 5c-3 3-8 4-8 4s1 5 4 8c3 3 8 4 8 4s1-5 4-8c3-3 4-8 4-8s-5-1-8 2c-3 3-5 4-5 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M7 13l4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="ud-feature-content">
                 <h3 class="ud-feature-title">Future Expandable</h3>

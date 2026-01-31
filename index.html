@@ -38,8 +38,7 @@
     <!-- ===== All CSS files ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <!-- Fallback CDN for LineIcons in case local font files/CSS fail -->
+    <!-- LineIcons from CDN (replaces local file) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lineicons@2.0.1/dist/LineIcons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
   </head>
@@ -385,6 +384,7 @@
                   <!-- Purchase Now
                 </a>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -1132,5 +1132,14 @@
 
       window.document.addEventListener("scroll", onScroll);
     </script>
+    <style>
+      .ud-feature-icon svg {
+        width: 32px;
+        height: 32px;
+        stroke: currentColor;
+        stroke-width: 1.5;
+        fill: none;
+      }
+    </style>
   </body>
 </html>
